@@ -1,5 +1,6 @@
 provider "aws" {
   region = "eu-west-3" # Datacenter en París
+  profile = "EKS-alumnos-248189943700"
 }
 
 resource "aws_instance" "practica_proveedor" {
