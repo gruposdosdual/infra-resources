@@ -1,8 +1,4 @@
-terraform {
-  required_providers {
-    local = {
-      source  = "hashicorp/local"
-      version = "~> 2.5.2"
-    }
-  }
+provider "aws" {
+  region  = "us-west-2"
+  profile = "EKS-alumnos-248189943700"
 }
